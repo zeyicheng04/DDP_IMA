@@ -65,6 +65,11 @@ p.caption{
 	text-indent:50px;
 }
 
+main a:hover{
+	background-color: ghostwhite;
+	color: #FCF3CF;
+}
+
 /*Footer section*/
 
 footer{
