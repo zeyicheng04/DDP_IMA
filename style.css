@@ -45,29 +45,16 @@ main h2{
 }
 
 main a{
-	color: black;
-}
-
-main a:hover{
-	background-color: black;
-	color: white;
-}
-
-main p{
-	text-indent:50px;
-}
-
-p.caption{
-	margin-top: 0;
-	color:  grey;
-	font-style: italic;
-	font-size: 20px;
-	text-indent:50px;
+	color: #FCF3CF;
 }
 
 main a:hover{
 	background-color: #AED6F1;
 	color: #FCF3CF;
+}
+
+main p{
+	text-indent:50px;
 }
 
 /*Footer section*/
