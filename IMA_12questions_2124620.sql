@@ -12,7 +12,7 @@ WHERE price > 35.00 ;
 
 SELECT COUNT (id) 
 FROM orders
-WHERE (date_of_birth < 1980-01-01) AND (newsletter = 1)
+WHERE (date_of_birth < 1980-01-01) AND (newsletter = 1);
 
 SELECT COUNT (id)
 FROM orders
@@ -27,10 +27,12 @@ FROM orders
 WHERE category_id = 3
 ORDER BY price DESC;
 
-SELECT trans_date AS"Transaction Date",price AS"Price",promo_code AS "Promotion code"
+SELECT trans_date AS "Transaction Date",
+       price AS "Price",
+       promo_code AS "Promotion code"
 FROM orders;
 
-SELECT CONCAT(customer_surname,' ',customer_firstname) 
+SELECT CONCAT(upper(customer_surname),' ',customer_firstname) 
 AS 'Customer Name',county AS 'County'
 FROM orders; 
 
